@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Order","Order without login","SUCCESS","2022-05-18T19:01:27.1996061+07:00[Asia/Bangkok]","0.0","7.92"
+"Order","Order normally","SUCCESS","2022-05-18T19:01:35.8830048+07:00[Asia/Bangkok]","0.0","9.24"
+"Order","Order and reduce the product quantity","SUCCESS","2022-05-18T19:01:45.9068091+07:00[Asia/Bangkok]","0.0","9.03"

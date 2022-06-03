@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Login","Login with valid email and password","SUCCESS","2022-05-18T19:00:35.868637+07:00[Asia/Bangkok]","0.0","21.02"
+"Login","Login with valid email and invalid password","SUCCESS","2022-05-18T19:00:57.9583394+07:00[Asia/Bangkok]","0.0","5.32"
+"Login","Login with invalid email and valid password","SUCCESS","2022-05-18T19:01:04.0593744+07:00[Asia/Bangkok]","0.0","5.13"
+"Login","Login with invalid email and password","SUCCESS","2022-05-18T19:01:09.9584816+07:00[Asia/Bangkok]","0.0","5.46"
