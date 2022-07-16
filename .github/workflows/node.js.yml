@@ -26,4 +26,3 @@ jobs:
         testFilePath: api-automation/
     - run: npm ci
     - run: npx newman run Capstone\ Refactoring.postman_collection.json -e API-LMS-42.postman_environment.json
-    - run: npm test
