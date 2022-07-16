@@ -1,0 +1,1337 @@
+{
+	"info": {
+		"_postman_id": "4242ad3f-34a6-44a7-80dd-0dc22b6d03aa",
+		"name": "Capstone Refactoring",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "17655708"
+	},
+	"item": [
+		{
+			"name": "Employee",
+			"item": [
+				{
+					"name": "Register User",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"company_id\": \"COMP-001\",\r\n    \"specialization_id\": \"7ed3cb18-4851-4ba1-8f97-88892bd2204b\",\r\n    \"full_name\": \"user1\",\r\n    \"email\": \"usertest1@goto.com\",\r\n    \"password\": \"user123\",\r\n    \"phone_number\": \"023812312332\",\r\n    \"address\": \"jalan user1\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{urlAPI}}/v1/user/register",
+							"host": [
+								"{{urlAPI}}"
+							],
+							"path": [
+								"v1",
+								"user",
+								"register"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Detail Users By employeeID (Perusahaan ( Detail Employee))",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{tokenCompany}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{urlAPI}}/v1/company/{{companyID}}/employee/EMP-005",
+							"host": [
+								"{{urlAPI}}"
+							],
+							"path": [
+								"v1",
+								"company",
+								"{{companyID}}",
+								"employee",
+								"EMP-005"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get All Users (On Dashboard company)",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{tokenCompany}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{urlAPI}}/v1/company/{{companyID}}/employee",
+							"host": [
+								"{{urlAPI}}"
+							],
+							"path": [
+								"v1",
+								"company",
+								"{{companyID}}",
+								"employee"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Specialization Employee (Perusahaan (Edit Spesialization Employee))",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"specialization_id\": \"SPEC-001\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{urlAPI}}/v1/company/{{companyID}}/employee/{{employeeID}}",
+							"host": [
+								"{{urlAPI}}"
+							],
+							"path": [
+								"v1",
+								"company",
+								"{{companyID}}",
+								"employee",
+								"{{employeeID}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Profile Employee",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"full_name\": \"User 1 Update\",\r\n    \"email\": \"user1Update@gmail.com\",\r\n    \"phone_number\": \"082394707111\",\r\n    \"address\": \"jalan user 1 update\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{urlAPI}}/v1/company/{{companyID}}/employee/{{employeeID}}/profile",
+							"host": [
+								"{{urlAPI}}"
+							],
+							"path": [
+								"v1",
+								"company",
+								"{{companyID}}",
+								"employee",
+								"{{employeeID}}",
+								"profile"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Profile Admin Company",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "full_name",
+									"value": "User 1 Update form",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "email1form@gmail.com",
+									"type": "text"
+								},
+								{
+									"key": "phone_number",
+									"value": "0812394701212",
+									"type": "text"
+								},
+								{
+									"key": "address",
+									"value": "Jalan user 1 update form",
+									"type": "text"
+								},
+								{
+									"key": "avatar",
+									"type": "file",
+									"src": "/C:/Users/tokyo/Videos/domain.png"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{urlAPI}}/v1/company/{{companyID}}/employee/{{employeeID}}/profile",
+							"host": [
+								"{{urlAPI}}"
+							],
+							"path": [
+								"v1",
+								"company",
+								"{{companyID}}",
+								"employee",
+								"{{employeeID}}",
+								"profile"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Change Password Users",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"old_password\": \"user123@\",\r\n    \"new_password\": \"user123@\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{urlAPI}}/v1/company/{{companyID}}/employee/{{employeeID}}/password",
+							"host": [
+								"{{urlAPI}}"
+							],
+							"path": [
+								"v1",
+								"company",
+								"{{companyID}}",
+								"employee",
+								"{{employeeID}}",
+								"password"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get User By ID (employee)",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{tokenEmployee}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{urlAPI}}/v1/employee/{{employeeID}}",
+							"host": [
+								"{{urlAPI}}"
+							],
+							"path": [
+								"v1",
+								"employee",
+								"{{employeeID}}"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "{{tokenCompany}}",
+						"type": "string"
+					}
+				]
+			},
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Company",
+			"item": [
+				{
+					"name": "Register Company",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{tokenCompany}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "name_company",
+									"value": "tokped",
+									"type": "text"
+								},
+								{
+									"key": "address_company",
+									"value": "jalan tokped k",
+									"type": "text"
+								},
+								{
+									"key": "sector",
+									"value": "tech",
+									"type": "text"
+								},
+								{
+									"key": "website",
+									"value": "goto.com",
+									"type": "text"
+								},
+								{
+									"key": "logo",
+									"description": "Logo in file",
+									"type": "file",
+									"src": "/C:/Users/tokyo/Videos/niaga hoster morwijk.png"
+								},
+								{
+									"key": "name_admin",
+									"value": "admin",
+									"type": "text"
+								},
+								{
+									"key": "phone_number",
+									"value": "023213123123",
+									"type": "text"
+								},
+								{
+									"key": "address_admin",
+									"value": "h jalan admin",
+									"type": "text"
+								},
+								{
+									"key": "email_admin",
+									"value": "admin@goto.com",
+									"type": "text"
+								},
+								{
+									"key": "password_admin",
+									"value": "admin123",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{urlAPI}}/v1/company/register",
+							"host": [
+								"{{urlAPI}}"
+							],
+							"path": [
+								"v1",
+								"company",
+								"register"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Company (Perusahaan (Dashboard))",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{tokenCompany}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{urlAPI}}/v1/company/{{companyID}}/dashboard",
+							"host": [
+								"{{urlAPI}}"
+							],
+							"path": [
+								"v1",
+								"company",
+								"{{companyID}}",
+								"dashboard"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Company Profile",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{tokenCompany}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "name_company",
+									"value": "Tokped Update",
+									"type": "text"
+								},
+								{
+									"key": "address_company",
+									"value": "jalan tokped",
+									"type": "text"
+								},
+								{
+									"key": "sector",
+									"value": "E-Commerce",
+									"type": "text"
+								},
+								{
+									"key": "website",
+									"value": "tokped.com",
+									"type": "text"
+								},
+								{
+									"key": "logo",
+									"type": "file",
+									"src": "/C:/Users/tokyo/Pictures/Screenshots/Screenshot (2).png"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{urlAPI}}/v1/company/{{companyID}}",
+							"host": [
+								"{{urlAPI}}"
+							],
+							"path": [
+								"v1",
+								"company",
+								"{{companyID}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Company Profile By companyID (Perusahaan (Setting Perusahaan))",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{tokenCompany}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{urlAPI}}/v1/company/{{companyID}}",
+							"host": [
+								"{{urlAPI}}"
+							],
+							"path": [
+								"v1",
+								"company",
+								"{{companyID}}"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "{{tokenCompany}}",
+						"type": "string"
+					}
+				]
+			},
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Auth",
+			"item": [
+				{
+					"name": "Login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"email\": \"user1Update@gmail.com\",\n    \"password\": \"user123\"\n}\n\n// {\n//     \"email\": \"admin@tokped.id\",\n//     \"password\": \"admin123\"\n// }\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{urlAPI}}/v1/login",
+							"host": [
+								"{{urlAPI}}"
+							],
+							"path": [
+								"v1",
+								"login"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "course",
+			"item": [
+				{
+					"name": "Add  Course (Perusahaan (Tambah Courses))",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{tokenCompany}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\": \"Test course 10\",\r\n    \"description\": \"Deskripsi course\",\r\n    \"thumbnail\": \"file Encoded\",\r\n    \"modules\": [\r\n        {\r\n            \"name\": \"Module 1\",\r\n            \"youtube_url\": \"www.youtube.com\",\r\n            \"slide_url\": \"www.docs.com/slide\",\r\n            \"orders\": 1,\r\n            \"quizzes\": [\r\n                {\r\n                    \"question\": \"1. Pertanyaan pertama\",\r\n                    \"answer\": \"A. Jawaban benar A\",\r\n                    \"multiple_choice\": [\r\n                        \"A. Jawaban benar A\",\r\n                        \"B. Jawaban Salah B\"\r\n                    ]\r\n                }\r\n            ]\r\n        },\r\n        {\r\n            \"name\": \"Module 2\",\r\n            \"youtube_url\": \"www.youtube.com\",\r\n            \"slide_url\": \"www.docs.com/slide\",\r\n            \"orders\": 2,\r\n            \"quizzes\": [\r\n                {\r\n                    \"question\": \"1. Pertanyaan pertama\",\r\n                    \"multiple_choice\": [\r\n                        \"A. Jawaban benar ASD\",\r\n                        \"B. Jawaban Salah B\"\r\n                    ],\r\n                    \"answer\": \"A. Jawaban benar A\"\r\n                },\r\n                {\r\n                    \"question\": \"3. Pertanyaan Ketiga\",\r\n                    \"answer\": \"G. Jawaban benar G\",\r\n                    \"multiple_choice\": [\r\n                        \"G. Jawaban benar G\",\r\n                        \"H. Jawaban Salah H\",\r\n                        \"I. Jawaban Salah I\",\r\n                        \"J. Jawaban Salah J\"\r\n                    ]\r\n                }\r\n            ]\r\n        }\r\n    ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{urlAPI}}/v1/company/{{companyID}}/course",
+							"host": [
+								"{{urlAPI}}"
+							],
+							"path": [
+								"v1",
+								"company",
+								"{{companyID}}",
+								"course"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Edit Course (Perusahaan (Edit Courses))",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{tokenCompany}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\": \"Test course 10 update\",\r\n    \"description\": \"Deskripsi course\",\r\n    \"thumbnail\": \"file Encoded\",\r\n    \"modules\": [\r\n        {\r\n            \"module_id\": \"MODS-001\",\r\n            \"course_id\": \"CO-001\",\r\n            \"name\": \"Module 1 update\",\r\n            \"youtube_url\": \"www.youtube.com/update\",\r\n            \"slide_url\": \"www.docs.com/slide/update\",\r\n            \"orders\": 1,\r\n            \"quizzes\": [\r\n                {\r\n                    \"quiz_id\": \"QZ-001\",\r\n                    \"module_id\": \"MODS-001\",\r\n                    \"question\": \"1. Pertanyaan pertama update\",\r\n                    \"answer\": \"A. Jawaban benar A update\",\r\n                    \"multiple_choice\": [\r\n                        \"A. Jawaban benar A update\",\r\n                        \"B. Jawaban Salah B update\"\r\n                    ]\r\n                }\r\n            ]\r\n        },\r\n        {\r\n            \"module_id\": \"MODS-002\",\r\n            \"course_id\": \"CO-001\",\r\n            \"name\": \"Module 2 update\",\r\n            \"youtube_url\": \"www.youtube.com/update\",\r\n            \"slide_url\": \"www.docs.com/slide/update\",\r\n            \"orders\": 2,\r\n            \"quizzes\": [\r\n                {\r\n                    \"quiz_id\": \"QZ-002\",\r\n                    \"module_id\": \"MODS-002\",\r\n                    \"question\": \"1. Pertanyaan pertama update\",\r\n                    \"multiple_choice\": [\r\n                        \"A. Jawaban benar ASD update\",\r\n                        \"B. Jawaban Salah B update\"\r\n                    ],\r\n                    \"answer\": \"A. Jawaban benar A update\"\r\n                },\r\n                {\r\n                    \"quiz_id\": \"QZ-003\",\r\n                    \"module_id\": \"MODS-002\",\r\n                    \"question\": \"3. Pertanyaan Ketiga update\",\r\n                    \"answer\": \"G. Jawaban benar G update\",\r\n                    \"multiple_choice\": [\r\n                        \"G. Jawaban benar G update\",\r\n                        \"H. Jawaban Salah H update\",\r\n                        \"I. Jawaban Salah I update\",\r\n                        \"J. Jawaban Salah J update\"\r\n                    ]\r\n                }\r\n            ]\r\n        }\r\n    ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{urlAPI}}/v1/company/{{companyID}}/course/{{courseID}}",
+							"host": [
+								"{{urlAPI}}"
+							],
+							"path": [
+								"v1",
+								"company",
+								"{{companyID}}",
+								"course",
+								"{{courseID}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Detail Course (Perusahaan (Detail Courses))",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{tokenCompany}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{urlAPI}}/v1/company/{{companyID}}/course/{{courseID}}",
+							"host": [
+								"{{urlAPI}}"
+							],
+							"path": [
+								"v1",
+								"company",
+								"{{companyID}}",
+								"course",
+								"{{courseID}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get All Course (Perusahaan (Courses))",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{tokenCompany}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{urlAPI}}/v1/company/{{companyID}}/course",
+							"host": [
+								"{{urlAPI}}"
+							],
+							"path": [
+								"v1",
+								"company",
+								"{{companyID}}",
+								"course"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get All Course Employee",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{tokenEmployee}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{urlAPI}}/v1/employee/{{employeeID}}/course/{{specializationID}}",
+							"host": [
+								"{{urlAPI}}"
+							],
+							"path": [
+								"v1",
+								"employee",
+								"{{employeeID}}",
+								"course",
+								"{{specializationID}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "*Get Detail Course (Employee(Courses Detail) //add response enrollments : true/false for check if user already enroll or not",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{tokenEmployee}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{urlAPI}}/v1/employee/{{employeeID}}/course/{{courseID}}/details",
+							"host": [
+								"{{urlAPI}}"
+							],
+							"path": [
+								"v1",
+								"employee",
+								"{{employeeID}}",
+								"course",
+								"{{courseID}}",
+								"details"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "{{tokenCompany}}",
+						"type": "string"
+					}
+				]
+			},
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Specialization",
+			"item": [
+				{
+					"name": "Dashboard Specialization (Perusahaan (Spesialization))",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{tokenCompany}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{urlAPI}}/v1/company/{{companyID}}/specialization",
+							"host": [
+								"{{urlAPI}}"
+							],
+							"path": [
+								"v1",
+								"company",
+								"{{companyID}}",
+								"specialization"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Specialization (Perusahaan (Tambah Spesialization))",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{tokenCompany}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"test specialization\",\r\n    \"invitation\": \"https://rubick.tech/invitation?link=1f567412cdc64309808c9950c58167b5\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{urlAPI}}/v1/company/{{companyID}}/specialization",
+							"host": [
+								"{{urlAPI}}"
+							],
+							"path": [
+								"v1",
+								"company",
+								"{{companyID}}",
+								"specialization"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Find Invitation Link for user register",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{urlAPI}}/v1/invitation?link=backend123",
+							"host": [
+								"{{urlAPI}}"
+							],
+							"path": [
+								"v1",
+								"invitation"
+							],
+							"query": [
+								{
+									"key": "link",
+									"value": "backend123"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Genereate Link for Invitation (Perusahaan (Tambah Spesialization))",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{tokenCompany}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{urlAPI}}/v1/company/{{companyID}}/specialization/generate",
+							"host": [
+								"{{urlAPI}}"
+							],
+							"path": [
+								"v1",
+								"company",
+								"{{companyID}}",
+								"specialization",
+								"generate"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Detail Specialization By ID (Perusahaan (Detail Spesialization))",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{tokenCompany}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{urlAPI}}/v1/company/{{companyID}}/specialization/{{specializationID}}",
+							"host": [
+								"{{urlAPI}}"
+							],
+							"path": [
+								"v1",
+								"company",
+								"{{companyID}}",
+								"specialization",
+								"{{specializationID}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add Course To Specialization (Perusahaan (add kursus to spesialization))",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"course_id\": \"CO-003\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{urlAPI}}/v1/company/{{companyID}}/specialization/{{specializationID}}/course",
+							"host": [
+								"{{urlAPI}}"
+							],
+							"path": [
+								"v1",
+								"company",
+								"{{companyID}}",
+								"specialization",
+								"{{specializationID}}",
+								"course"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Specialization (Perusahaan (Edit Spesialization Name))",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Mobile Devoloper\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{urlAPI}}/v1/company/{{companyID}}/specialization/{{specializationID}}",
+							"host": [
+								"{{urlAPI}}"
+							],
+							"path": [
+								"v1",
+								"company",
+								"{{companyID}}",
+								"specialization",
+								"{{specializationID}}"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "{{tokenCompany}}",
+						"type": "string"
+					}
+				]
+			},
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Upload Image",
+			"item": [
+				{
+					"name": "Upload Image",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"type": "file",
+									"src": "/C:/Users/tokyo/Videos/niaga hoster morwijk.png"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{urlAPI}}/v1/image",
+							"host": [
+								"{{urlAPI}}"
+							],
+							"path": [
+								"v1",
+								"image"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Modules",
+			"item": [
+				{
+					"name": "Get All Module (Employee(Courses Video))",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{tokenEmployee}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{urlAPI}}/v1/employee/{{employeeID}}/course/{{courseID}}/modules",
+							"host": [
+								"{{urlAPI}}"
+							],
+							"path": [
+								"v1",
+								"employee",
+								"{{employeeID}}",
+								"course",
+								"{{courseID}}",
+								"modules"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Enrollments",
+			"item": [
+				{
+					"name": "Enroll Course For Employee",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{tokenEmployee}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{urlAPI}}/v1/employee/{{employeeID}}/course/{{courseID}}/enroll",
+							"host": [
+								"{{urlAPI}}"
+							],
+							"path": [
+								"v1",
+								"employee",
+								"{{employeeID}}",
+								"course",
+								"{{courseID}}",
+								"enroll"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Rating Reviews",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{tokenEmployee}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"rating\": 4.5,\n    \"reviews\": \"Testi dari EMP-002 untuk CO-002\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{urlAPI}}/v1/employee/{{employeeID}}/course/{{courseID}}/feedback",
+							"host": [
+								"{{urlAPI}}"
+							],
+							"path": [
+								"v1",
+								"employee",
+								"{{employeeID}}",
+								"course",
+								"{{courseID}}",
+								"feedback"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Proggress Course",
+			"item": [
+				{
+					"name": "Insert Proggress Course",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{tokenEmployee}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"module_id\": \"MODS-001\",\n    \"point\": 90,\n    \"status\": true\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{urlAPI}}/v1/employee/{{employeeID}}/course/{{courseID}}/progress",
+							"host": [
+								"{{urlAPI}}"
+							],
+							"path": [
+								"v1",
+								"employee",
+								"{{employeeID}}",
+								"course",
+								"{{courseID}}",
+								"progress"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Request Feature",
+			"item": [
+				{
+					"name": "Request Course",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{tokenEmployee}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"company_id\": \"COMP-001\",\n    \"request_type\": \"Request course\",\n    \"title\": \"CSS\",\n    \"reason\": \"Karna saya ingin belajar CSS\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{urlAPI}}/v1/employee/{{employeeID}}/request",
+							"host": [
+								"{{urlAPI}}"
+							],
+							"path": [
+								"v1",
+								"employee",
+								"{{employeeID}}",
+								"request"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"auth": {
+		"type": "bearer",
+		"bearer": [
+			{
+				"key": "token",
+				"value": "",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
