@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Simpan Kursus</name>
+   <tag></tag>
+   <elementGuidId>70e1e529-5de2-44c0-998f-e03dd412e514</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.v-btn.v-btn--has-bg.theme--light.v-size--default.primary.text-capitalize.text-caption.font-weight-reguler</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[11]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>4b6533c6-47fa-4af2-a816-4daa93ddca9f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>4b9410b1-d745-4682-8d3f-3614f44c11d8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>v-btn v-btn--has-bg theme--light v-size--default primary text-capitalize text-caption font-weight-reguler</value>
+      <webElementGuid>8ba108ca-7292-4f12-99b1-74c615239ebc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Simpan Kursus </value>
+      <webElementGuid>06e00f90-3d34-4098-bb7b-687c8fa34102</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@id=&quot;app&quot;]/div[@class=&quot;v-application--wrap&quot;]/div[@id=&quot;app&quot;]/div[@class=&quot;v-application--wrap&quot;]/div[@id=&quot;app&quot;]/div[@class=&quot;v-application--wrap&quot;]/main[@class=&quot;v-main&quot;]/div[@class=&quot;v-main__wrap&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;modulkursus my-5&quot;]/div[@class=&quot;pa-5 v-card v-sheet theme--light&quot;]/div[@class=&quot;buttonsave d-flex&quot;]/button[@class=&quot;v-btn v-btn--has-bg theme--light v-size--default primary text-capitalize text-caption font-weight-reguler&quot;]</value>
+      <webElementGuid>5b2c5e3c-5512-4f52-831d-b8934f80f8f4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[11]</value>
+      <webElementGuid>f8b181c1-b0a5-4315-920e-5ae648993046</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/main/div/div/div[4]/div/div[3]/button</value>
+      <webElementGuid>f547b2dd-8f69-4293-9ad4-d66b4392625f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bisa'])[1]/following::button[1]</value>
+      <webElementGuid>05593280-f354-480a-ae8f-c64f9565a5d9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Opsi Jawaban Benar'])[1]/following::button[1]</value>
+      <webElementGuid>e610dad5-89f8-4166-ba42-5c5f5f53f2b9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bisa'])[2]/preceding::button[1]</value>
+      <webElementGuid>14ec5b96-e5ee-47fe-a48b-5d0e045fa888</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/button</value>
+      <webElementGuid>1b2e2eb9-d8f1-4f8c-8546-3c2b852a02b2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = ' Simpan Kursus ' or . = ' Simpan Kursus ')]</value>
+      <webElementGuid>37933a0d-f49c-4acc-bb84-704ac5aaf8bc</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

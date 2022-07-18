@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Masuk_v-overlay v-overlay--active theme--dark</name>
+   <tag></tag>
+   <elementGuidId>4a8832e3-5113-4cb5-a5fd-d5da360fc2bd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.v-overlay.v-overlay--active.theme--dark</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div/div/div/div/form/div[3]/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>000babd3-a324-4a84-94b1-698f04ed4779</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>v-overlay v-overlay--active theme--dark</value>
+      <webElementGuid>061b07e0-c826-4dec-9105-c696756ce5dd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;v-application--wrap&quot;]/div[@class=&quot;body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col col-7&quot;]/div[@class=&quot;container contain&quot;]/form[@class=&quot;v-form&quot;]/div[@class=&quot;d-flex&quot;]/div[@class=&quot;v-overlay v-overlay--active theme--dark&quot;]</value>
+      <webElementGuid>4adc5586-b352-4562-86b8-6cea2837a6ba</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div/div/div/div/form/div[3]/div[2]</value>
+      <webElementGuid>c964a202-73be-4a9a-b11a-100a7908adf9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Masuk'])[1]/following::div[1]</value>
+      <webElementGuid>3ba1c9ba-f8c0-4f37-aca2-676422274965</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ingat Saya'])[1]/following::div[5]</value>
+      <webElementGuid>e4933531-9839-486d-81df-f40116f3b214</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div[2]</value>
+      <webElementGuid>fc43c02f-9eae-4dcc-ae92-7752560a970e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h1_Informasi Perusahaan</name>
+   <tag></tag>
+   <elementGuidId>ac75c2d6-b440-4b27-a25d-d5fd614c1aa0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>h1</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div/div/div/div/form/div/div/h1</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h1</value>
+      <webElementGuid>9d6f3d64-09db-4d54-b1a2-cde3d23d36b8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Informasi Perusahaan</value>
+      <webElementGuid>96db22a1-65e4-4fd5-8099-056e2d0031e6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;v-application--wrap&quot;]/div[@class=&quot;body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col col-7&quot;]/div[@class=&quot;container cont&quot;]/form[@class=&quot;v-form&quot;]/div[@class=&quot;form&quot;]/div[@class=&quot;my-6&quot;]/h1[1]</value>
+      <webElementGuid>312b3a43-721f-41f2-ad11-83d7d907f614</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h1</value>
+      <webElementGuid>15ccb838-caab-41dc-8328-08caa3aaf22e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Informasi Perusahaan</value>
+      <webElementGuid>8b24ad47-de3e-4203-b15c-01b190b2ee03</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;v-application--wrap&quot;]/div[@class=&quot;body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col col-7&quot;]/div[@class=&quot;container cont&quot;]/form[@class=&quot;v-form&quot;]/div[@class=&quot;form&quot;]/div[@class=&quot;my-6&quot;]/h1[1]</value>
+      <webElementGuid>cc9adeba-6576-48d8-b648-0c1e1e2f1be8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div/div/div/div/form/div/div/h1</value>
+      <webElementGuid>e227345a-5083-4868-ad67-c25de8ef552c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='i'])[1]/following::h1[1]</value>
+      <webElementGuid>9c5c7847-4479-469c-8020-018928983c00</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='​'])[1]/preceding::h1[1]</value>
+      <webElementGuid>5226ab39-1c9f-4ae4-8127-59c652ffbf20</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nama Perusahaan'])[1]/preceding::h1[1]</value>
+      <webElementGuid>076041a9-3355-4588-8a48-166415b364ae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Informasi Perusahaan']/parent::*</value>
+      <webElementGuid>fb20bce2-a8b2-4887-b88a-82c7ec6cab0b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h1</value>
+      <webElementGuid>a1fa2dd0-9223-443b-a3aa-a6b2fc953a16</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h1[(text() = 'Informasi Perusahaan' or . = 'Informasi Perusahaan')]</value>
+      <webElementGuid>4c33912a-c41f-4af6-b029-d4cd7e3c2c25</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

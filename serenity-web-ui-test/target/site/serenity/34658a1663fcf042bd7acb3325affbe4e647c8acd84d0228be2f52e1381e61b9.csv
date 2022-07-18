@@ -1,4 +1,0 @@
-"Story","Title","Result","Date","Stability","Duration (s)"
-"Login","Login with valid email and password","SUCCESS","2022-05-18T19:00:35.868637+07:00[Asia/Bangkok]","0.0","21.02"
-"Logout","Logout an account","SUCCESS","2022-05-18T19:01:16.2596437+07:00[Asia/Bangkok]","0.0","10.03"
-"Ratings","Logout an account","FAILURE","2022-05-18T19:01:55.720259+07:00[Asia/Bangkok]","0.0","14.69"

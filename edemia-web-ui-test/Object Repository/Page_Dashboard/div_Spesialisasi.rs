@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Spesialisasi</name>
+   <tag></tag>
+   <elementGuidId>0cf763e7-8641-42aa-a7f9-5c30297ece0d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/main/div/nav/div/div/div[4]/a/div/div[2]/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>2d902aba-5f2e-4114-a1b9-562789ca652e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>v-list-item__title font-weight-bold</value>
+      <webElementGuid>29f5f3d1-cd9b-446d-a618-5fc7b01c0b7d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Spesialisasi</value>
+      <webElementGuid>4da885ec-cc5c-4bf0-af56-173cd85fb67d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@id=&quot;app&quot;]/div[@class=&quot;v-application--wrap&quot;]/div[@id=&quot;app&quot;]/div[@class=&quot;v-application--wrap&quot;]/main[@class=&quot;v-main&quot;]/div[@class=&quot;v-main__wrap&quot;]/nav[@class=&quot;pa-4 v-navigation-drawer v-navigation-drawer--fixed v-navigation-drawer--is-mouseover v-navigation-drawer--open theme--light&quot;]/div[@class=&quot;v-navigation-drawer__content&quot;]/div[@class=&quot;v-list v-sheet theme--light v-list--flat&quot;]/div[@class=&quot;v-item-group theme--light v-list-item-group primary--text&quot;]/a[@class=&quot;v-list-item v-list-item--link theme--light&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;v-list-item__content title&quot;]/div[@class=&quot;v-list-item__title font-weight-bold&quot;]</value>
+      <webElementGuid>a187a037-f859-40ab-a933-0f7886c3d4f0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/main/div/nav/div/div/div[4]/a/div/div[2]/div</value>
+      <webElementGuid>8dca1f9c-d86b-48dc-bb81-11ce98f5c1b5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dashboard'])[2]/following::div[6]</value>
+      <webElementGuid>c37c30fe-3eee-4f58-80d0-17a60465fa81</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Wolyhings'])[1]/following::div[12]</value>
+      <webElementGuid>c41eeb3c-f984-4a75-85b9-5f370ac503a4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kursus'])[1]/preceding::div[3]</value>
+      <webElementGuid>deacd5bf-ce1f-4652-875f-d969222c9683</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Karyawan'])[1]/preceding::div[9]</value>
+      <webElementGuid>3941838d-4983-4370-a441-88a98f028c5d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Spesialisasi']/parent::*</value>
+      <webElementGuid>af3185c7-19cb-4b9a-8f4c-e1c50a028d5b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/a/div/div[2]/div</value>
+      <webElementGuid>645738e1-f33b-44f9-b91b-b72af8defd78</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Spesialisasi' or . = 'Spesialisasi')]</value>
+      <webElementGuid>c1bc912f-5e6a-48e8-825e-bf8c4fc70720</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

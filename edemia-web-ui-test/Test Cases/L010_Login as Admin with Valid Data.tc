@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>L010_Login as Admin with Valid Data</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fb6f4bb9-0d3f-4a61-8b4c-31d52e342dc4</testCaseGuid>
+</TestCaseEntity>

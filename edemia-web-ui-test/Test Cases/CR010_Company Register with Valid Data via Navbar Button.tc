@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CR010_Company Register with Valid Data via Navbar Button</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a91a034a-d883-4e2a-becf-e8a68ba4307b</testCaseGuid>
+</TestCaseEntity>

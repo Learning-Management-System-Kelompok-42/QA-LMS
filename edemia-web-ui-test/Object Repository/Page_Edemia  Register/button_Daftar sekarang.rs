@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Daftar sekarang</name>
+   <tag></tag>
+   <elementGuidId>97cb8b1d-2241-4010-8e25-ea7cf500828a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.text-capitalize.white--text.mt-5.v-btn.v-btn--has-bg.theme--light.v-size--large</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@type='submit']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>bcbdaae5-4342-4613-b640-6487edbee28c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+      <webElementGuid>35930544-4f38-443d-9701-28f9efed0a4f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-capitalize white--text mt-5 v-btn v-btn--has-bg theme--light v-size--large</value>
+      <webElementGuid>14934812-1050-4e0d-b979-e128f8a4b669</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Daftar sekarang </value>
+      <webElementGuid>a790b2d4-216e-4c32-91d0-dbf4b1206014</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;v-application--wrap&quot;]/div[@class=&quot;body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col col-7&quot;]/div[@class=&quot;container cont&quot;]/form[@class=&quot;v-form&quot;]/div[@class=&quot;form2&quot;]/div[@class=&quot;btnDiv d-flex&quot;]/button[@class=&quot;text-capitalize white--text mt-5 v-btn v-btn--has-bg theme--light v-size--large&quot;]</value>
+      <webElementGuid>48012eb4-0816-4747-82f6-92d84765b6ea</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>f78aaf68-b194-497d-9c0e-f20024b290f1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+      <webElementGuid>094343b1-3826-4a5e-aa67-0d1857634575</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-capitalize white--text mt-5 v-btn v-btn--has-bg theme--light v-size--large</value>
+      <webElementGuid>9d01872d-aeaa-4c90-a65a-956d0b56de37</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Daftar sekarang </value>
+      <webElementGuid>1a816bd0-2084-466e-9ed8-bbce86e6dbf2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;v-application--wrap&quot;]/div[@class=&quot;body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col col-7&quot;]/div[@class=&quot;container cont&quot;]/form[@class=&quot;v-form&quot;]/div[@class=&quot;form2&quot;]/div[@class=&quot;btnDiv d-flex&quot;]/button[@class=&quot;text-capitalize white--text mt-5 v-btn v-btn--has-bg theme--light v-size--large&quot;]</value>
+      <webElementGuid>fb6dee03-583b-4da1-be55-96e87caecb08</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@type='submit']</value>
+      <webElementGuid>72ec4d74-b5c4-47c2-8909-1073286fba5d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div/div/div/div/form/div/div[8]/button</value>
+      <webElementGuid>1e4e9005-3b18-431e-a24c-d0f6f5ca1be7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Saya setuju dengan syarat dan ketentuan yang berlaku'])[1]/following::button[1]</value>
+      <webElementGuid>fec11caf-5114-44d2-9721-4c524a055d43</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Konfirmasi Kata Sandi'])[1]/following::button[2]</value>
+      <webElementGuid>6619f38b-8d1e-42f6-bc5b-9c9651989a12</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[8]/button</value>
+      <webElementGuid>d87ab85a-bffb-41c8-93ed-f5787fcd7db4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'submit' and (text() = ' Daftar sekarang ' or . = ' Daftar sekarang ')]</value>
+      <webElementGuid>f879d502-18cd-4e53-8e70-d04859f5ee2a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

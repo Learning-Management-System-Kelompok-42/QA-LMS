@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Masuk</name>
+   <tag></tag>
+   <elementGuidId>317b3721-7dd4-41df-824c-e2a54e79ec65</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.text-capitalize.v-btn.v-btn--outlined.v-btn--router.theme--light.v-size--default.primary--text</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div/div/header/div/div/div[4]/a[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>e35359a7-e2c7-42ec-a4e9-19d6720010be</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/login</value>
+      <webElementGuid>e98d2cf3-bbd8-4886-b574-391d214e5de3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-capitalize v-btn v-btn--outlined v-btn--router theme--light v-size--default primary--text</value>
+      <webElementGuid>d4ce9dcc-9f94-4f38-bede-fb3752019e95</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Masuk </value>
+      <webElementGuid>c427ea0c-e0a5-4bbf-bc86-2b2d04580061</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;v-application--wrap&quot;]/div[1]/div[@class=&quot;container&quot;]/header[@class=&quot;mt-0 v-sheet theme--light v-toolbar v-toolbar--flat v-app-bar v-app-bar--elevate-on-scroll v-app-bar--fixed v-app-bar--hide-shadow&quot;]/div[@class=&quot;v-toolbar__content&quot;]/div[@class=&quot;container d-flex&quot;]/div[4]/a[@class=&quot;text-capitalize v-btn v-btn--outlined v-btn--router theme--light v-size--default primary--text&quot;]</value>
+      <webElementGuid>e77f1f00-cbba-40e7-b9ab-1e775437c2ad</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>427ed541-965f-4876-b6b7-eb3026982850</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/login</value>
+      <webElementGuid>a5c521a8-9f83-4ed1-b11e-08eae36a588d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-capitalize v-btn v-btn--outlined v-btn--router theme--light v-size--default primary--text</value>
+      <webElementGuid>ec1e3638-e0fb-4978-9ea6-9e6ead7620a0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Masuk </value>
+      <webElementGuid>9ef901da-800d-4fea-81d5-0190ce2af1a6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;v-application--wrap&quot;]/div[1]/div[@class=&quot;container&quot;]/header[@class=&quot;mt-0 v-sheet theme--light v-toolbar v-toolbar--flat v-app-bar v-app-bar--elevate-on-scroll v-app-bar--fixed v-app-bar--hide-shadow&quot;]/div[@class=&quot;v-toolbar__content&quot;]/div[@class=&quot;container d-flex&quot;]/div[4]/a[@class=&quot;text-capitalize v-btn v-btn--outlined v-btn--router theme--light v-size--default primary--text&quot;]</value>
+      <webElementGuid>4d4768d0-a670-47bd-b4f2-14d9b8e7a9d3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div/div/header/div/div/div[4]/a[2]</value>
+      <webElementGuid>d60a3025-276c-4083-b614-6b21f2c57797</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Daftar'])[1]/following::a[1]</value>
+      <webElementGuid>4d9a93c7-5a09-427b-91c8-637927c1ca07</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='FAQ'])[1]/following::a[2]</value>
+      <webElementGuid>7f69bd29-acb7-404b-b052-4533981f6140</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='tingkatkan kemampuan para pekerjamu'])[1]/preceding::a[1]</value>
+      <webElementGuid>48e0a2a1-76e5-4dc9-856b-1fc2741b272a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/login')]</value>
+      <webElementGuid>dc6518e5-5ff2-489c-936d-a5acfcac5e3d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a[2]</value>
+      <webElementGuid>a84bdce6-e249-4a1a-826f-96fded8daa0c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/login' and (text() = ' Masuk ' or . = ' Masuk ')]</value>
+      <webElementGuid>3605434c-6e74-4d65-8d9d-276044edeb2a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

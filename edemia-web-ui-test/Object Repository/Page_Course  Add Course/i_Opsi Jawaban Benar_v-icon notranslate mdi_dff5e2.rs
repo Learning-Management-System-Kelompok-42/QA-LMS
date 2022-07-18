@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Opsi Jawaban Benar_v-icon notranslate mdi_dff5e2</name>
+   <tag></tag>
+   <elementGuidId>f18da7ae-16c8-4ca2-abd7-df4a8bc3e4fc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>i.v-icon.notranslate.mdi.mdi-chevron-down.theme--light.primary--text</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/main/div/div/div[4]/div/div[2]/div[5]/div/div[2]/div[2]/div[5]/div/div/div/div/div[2]/div/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>7782df51-898d-45b8-b158-e03b87fe879b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>f237ff5e-428b-418a-ab09-6f0ce56b921b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>v-icon notranslate mdi mdi-chevron-down theme--light primary--text</value>
+      <webElementGuid>5684b598-c052-4fd1-919f-50c1dbd2d856</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@id=&quot;app&quot;]/div[@class=&quot;v-application--wrap&quot;]/div[@id=&quot;app&quot;]/div[@class=&quot;v-application--wrap&quot;]/div[@id=&quot;app&quot;]/div[@class=&quot;v-application--wrap&quot;]/main[@class=&quot;v-main&quot;]/div[@class=&quot;v-main__wrap&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;modulkursus my-5&quot;]/div[@class=&quot;pa-5 v-card v-sheet theme--light&quot;]/div[@class=&quot;mainmodul&quot;]/div[@class=&quot;modulquiz pa-5 my-3&quot;]/div[@class=&quot;header-quiz&quot;]/div[@class=&quot;soal&quot;]/div[@class=&quot;answer ms-6&quot;]/div[@class=&quot;container mx-6 px-6&quot;]/div[@class=&quot;v-input ms-3 v-input--is-focused theme--light v-text-field v-text-field--is-booted v-text-field--enclosed v-text-field--outlined v-select v-select--is-menu-active primary--text&quot;]/div[@class=&quot;v-input__control&quot;]/div[@class=&quot;v-input__slot&quot;]/div[@class=&quot;v-select__slot&quot;]/div[@class=&quot;v-input__append-inner&quot;]/div[@class=&quot;v-input__icon v-input__icon--append&quot;]/i[@class=&quot;v-icon notranslate mdi mdi-chevron-down theme--light primary--text&quot;]</value>
+      <webElementGuid>497727ce-68a6-405d-96e7-215de29903cc</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/main/div/div/div[4]/div/div[2]/div[5]/div/div[2]/div[2]/div[5]/div/div/div/div/div[2]/div/i</value>
+      <webElementGuid>5ebbef28-28f8-4adc-8b87-0b3ffc880fdd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/i</value>
+      <webElementGuid>db181283-491c-4aac-b2ff-08693aa323c0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

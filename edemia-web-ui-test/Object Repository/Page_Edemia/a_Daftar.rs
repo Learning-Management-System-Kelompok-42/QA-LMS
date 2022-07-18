@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Daftar</name>
+   <tag></tag>
+   <elementGuidId>960b1fe2-da97-4f68-84a0-06ab16f3da4d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.white--text.mx-2.text-capitalize.v-btn.v-btn--has-bg.v-btn--router.theme--light.v-size--default.primary</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div/div/header/div/div/div[4]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>28773697-7424-4379-995e-c2d26bace220</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/register</value>
+      <webElementGuid>3ec70770-0d12-43dd-81ac-cb4715458cc7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>white--text mx-2 text-capitalize v-btn v-btn--has-bg v-btn--router theme--light v-size--default primary</value>
+      <webElementGuid>5e99a1c1-d075-4b94-bd7e-4041dd7739b8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Daftar </value>
+      <webElementGuid>78b1a709-5cfb-48b0-b114-a2a828ae4a70</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;v-application--wrap&quot;]/div[1]/div[@class=&quot;container&quot;]/header[@class=&quot;mt-0 v-sheet theme--light v-toolbar v-toolbar--flat v-app-bar v-app-bar--elevate-on-scroll v-app-bar--fixed v-app-bar--hide-shadow&quot;]/div[@class=&quot;v-toolbar__content&quot;]/div[@class=&quot;container d-flex&quot;]/div[4]/a[@class=&quot;white--text mx-2 text-capitalize v-btn v-btn--has-bg v-btn--router theme--light v-size--default primary&quot;]</value>
+      <webElementGuid>c13e1a3b-4a43-4cd3-9d13-d721f566daf7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div/div/header/div/div/div[4]/a</value>
+      <webElementGuid>a0871cc6-c56c-47ea-8dd7-203fa49cf921</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='FAQ'])[1]/following::a[1]</value>
+      <webElementGuid>029d70dd-03ef-43d7-8e84-8a2049aeb504</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Perusahaan'])[1]/following::a[1]</value>
+      <webElementGuid>061b35d9-d8c2-42e4-9c1f-a7d7788a80af</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Masuk'])[1]/preceding::a[1]</value>
+      <webElementGuid>86b2509f-56ac-4f22-9be7-8626625a80cf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/register')]</value>
+      <webElementGuid>b21baf8c-48e4-4d88-ad46-9d8bea0f5f64</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a</value>
+      <webElementGuid>f1ccf13c-9c04-4a79-bfc6-59ceeaf7ac35</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/register' and (text() = ' Daftar ' or . = ' Daftar ')]</value>
+      <webElementGuid>1ada9866-307f-48d4-b5cd-99080202d5d3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Kursus</name>
+   <tag></tag>
+   <elementGuidId>3818bf11-f228-498a-aaf1-304d2cac5a16</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/main/div/nav/div/div/div[5]/a/div/div[2]/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>45384b6c-4ed7-4192-8fc2-865e2372de56</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>v-list-item__title font-weight-bold</value>
+      <webElementGuid>facf73a1-0d82-4474-9621-8d0a0928bd22</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Kursus</value>
+      <webElementGuid>697bb250-bb35-4d4e-874c-9533a3b3b1e1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@id=&quot;app&quot;]/div[@class=&quot;v-application--wrap&quot;]/div[@id=&quot;app&quot;]/div[@class=&quot;v-application--wrap&quot;]/main[@class=&quot;v-main&quot;]/div[@class=&quot;v-main__wrap&quot;]/nav[@class=&quot;pa-4 v-navigation-drawer v-navigation-drawer--fixed v-navigation-drawer--is-mouseover v-navigation-drawer--open theme--light&quot;]/div[@class=&quot;v-navigation-drawer__content&quot;]/div[@class=&quot;v-list v-sheet theme--light v-list--flat&quot;]/div[@class=&quot;v-item-group theme--light v-list-item-group primary--text&quot;]/a[@class=&quot;v-list-item v-list-item--link theme--light&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;v-list-item__content title&quot;]/div[@class=&quot;v-list-item__title font-weight-bold&quot;]</value>
+      <webElementGuid>14f7d81f-00d3-450b-ac6a-eb82120cc805</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/main/div/nav/div/div/div[5]/a/div/div[2]/div</value>
+      <webElementGuid>d677a8c4-04a6-470f-9900-8335ff524370</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Spesialisasi'])[1]/following::div[6]</value>
+      <webElementGuid>e3ac0999-ff49-43bc-b845-0daa62370cea</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dashboard'])[2]/following::div[12]</value>
+      <webElementGuid>77db77a4-25c8-4487-83ed-b289a797cdb7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Karyawan'])[1]/preceding::div[3]</value>
+      <webElementGuid>9c6f9a68-8ff6-4e28-832f-da46895d79b8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Permintaan'])[1]/preceding::div[9]</value>
+      <webElementGuid>26f367dd-007a-426b-80dc-2d698b99156f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Kursus']/parent::*</value>
+      <webElementGuid>54335119-818c-4b91-96ee-68a6895f5c85</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/a/div/div[2]/div</value>
+      <webElementGuid>315f82fd-8c25-4c0b-af48-09a9104eab76</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Kursus' or . = 'Kursus')]</value>
+      <webElementGuid>6f1d1809-d2dd-495f-8959-9b02765450e9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
