@@ -1,16 +1,16 @@
 {
 	"info": {
-		"_postman_id": "4242ad3f-34a6-44a7-80dd-0dc22b6d03aa",
+		"_postman_id": "fa2f4af9-1f8c-4c47-8016-561f66d5938c",
 		"name": "Capstone Refactoring",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_exporter_id": "17655708"
+		"_exporter_id": "20224898"
 	},
 	"item": [
 		{
 			"name": "Employee",
 			"item": [
 				{
-					"name": "Register User",
+					"name": "E101_POST - Register Employee with Valid Data",
 					"request": {
 						"method": "POST",
 						"header": [],
@@ -38,7 +38,7 @@
 					"response": []
 				},
 				{
-					"name": "Get Detail Users By employeeID (Perusahaan ( Detail Employee))",
+					"name": "E020_GET - View User Detail by employeeID",
 					"request": {
 						"auth": {
 							"type": "bearer",
@@ -69,7 +69,7 @@
 					"response": []
 				},
 				{
-					"name": "Get All Users (On Dashboard company)",
+					"name": "E030_GET - View All Users",
 					"request": {
 						"auth": {
 							"type": "bearer",
@@ -99,7 +99,7 @@
 					"response": []
 				},
 				{
-					"name": "Update Specialization Employee (Perusahaan (Edit Spesialization Employee))",
+					"name": "E040_PUT - Update Employee Specialization",
 					"request": {
 						"method": "PUT",
 						"header": [],
@@ -129,7 +129,7 @@
 					"response": []
 				},
 				{
-					"name": "Update Profile Employee",
+					"name": "E050_PUT - Update Employee Profile",
 					"request": {
 						"method": "PUT",
 						"header": [],
@@ -160,7 +160,7 @@
 					"response": []
 				},
 				{
-					"name": "Update Profile Admin Company",
+					"name": "E060_PUT - Update Employee Admin Company",
 					"request": {
 						"method": "PUT",
 						"header": [],
@@ -212,7 +212,7 @@
 					"response": []
 				},
 				{
-					"name": "Change Password Users",
+					"name": "E070_PUT - Change Employee Password",
 					"request": {
 						"method": "PUT",
 						"header": [],
@@ -243,7 +243,7 @@
 					"response": []
 				},
 				{
-					"name": "Get User By ID (employee)",
+					"name": "E080_GET -- View User by ID",
 					"request": {
 						"auth": {
 							"type": "bearer",
@@ -307,7 +307,7 @@
 			"name": "Company",
 			"item": [
 				{
-					"name": "Register Company",
+					"name": "C010_POST - Register with Valid Data",
 					"request": {
 						"auth": {
 							"type": "bearer",
@@ -392,7 +392,7 @@
 					"response": []
 				},
 				{
-					"name": "Get Company (Perusahaan (Dashboard))",
+					"name": "C020_GET - Company",
 					"request": {
 						"auth": {
 							"type": "bearer",
@@ -422,7 +422,7 @@
 					"response": []
 				},
 				{
-					"name": "Update Company Profile",
+					"name": "C030_PUT - Update Company Profile",
 					"request": {
 						"auth": {
 							"type": "bearer",
@@ -481,7 +481,7 @@
 					"response": []
 				},
 				{
-					"name": "Get Company Profile By companyID (Perusahaan (Setting Perusahaan))",
+					"name": "C040_GET - Company Profile by companyID",
 					"request": {
 						"auth": {
 							"type": "bearer",
@@ -545,13 +545,13 @@
 			"name": "Auth",
 			"item": [
 				{
-					"name": "Login",
+					"name": "L010_POST - Login as Admin",
 					"request": {
 						"method": "POST",
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"email\": \"user1Update@gmail.com\",\n    \"password\": \"user123\"\n}\n\n// {\n//     \"email\": \"admin@tokped.id\",\n//     \"password\": \"admin123\"\n// }\n",
+							"raw": "{\n    \"email\": \"user1Update@gmail.com\",\n    \"password\": \"user123\"\n}\n\n// {\n//     \"email\": \"admin@tokped.id\",\n//     \"password\": \"admin123\"\n// }\n\n\n\n",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -577,7 +577,7 @@
 			"name": "course",
 			"item": [
 				{
-					"name": "Add  Course (Perusahaan (Tambah Courses))",
+					"name": "CO010_POST - Add Course",
 					"request": {
 						"auth": {
 							"type": "bearer",
@@ -616,7 +616,7 @@
 					"response": []
 				},
 				{
-					"name": "Edit Course (Perusahaan (Edit Courses))",
+					"name": "CO020_PUT - Edit Course",
 					"request": {
 						"auth": {
 							"type": "bearer",
@@ -656,7 +656,7 @@
 					"response": []
 				},
 				{
-					"name": "Get Detail Course (Perusahaan (Detail Courses))",
+					"name": "C030_GET - View Detail Course",
 					"request": {
 						"auth": {
 							"type": "bearer",
@@ -687,7 +687,7 @@
 					"response": []
 				},
 				{
-					"name": "Get All Course (Perusahaan (Courses))",
+					"name": "C040_GET - View All Course",
 					"request": {
 						"auth": {
 							"type": "bearer",
@@ -717,7 +717,7 @@
 					"response": []
 				},
 				{
-					"name": "Get All Course Employee",
+					"name": "C050_GET - View All Course Employee",
 					"request": {
 						"auth": {
 							"type": "bearer",
@@ -748,7 +748,7 @@
 					"response": []
 				},
 				{
-					"name": "*Get Detail Course (Employee(Courses Detail) //add response enrollments : true/false for check if user already enroll or not",
+					"name": "C060_GET - View Detail Course",
 					"request": {
 						"auth": {
 							"type": "bearer",
@@ -815,7 +815,7 @@
 			"name": "Specialization",
 			"item": [
 				{
-					"name": "Dashboard Specialization (Perusahaan (Spesialization))",
+					"name": "S010_GET - Dashboard Specialization",
 					"request": {
 						"auth": {
 							"type": "bearer",
@@ -845,7 +845,7 @@
 					"response": []
 				},
 				{
-					"name": "Create Specialization (Perusahaan (Tambah Spesialization))",
+					"name": "S020_POST - Create Specialization",
 					"request": {
 						"auth": {
 							"type": "bearer",
@@ -884,7 +884,7 @@
 					"response": []
 				},
 				{
-					"name": "Find Invitation Link for user register",
+					"name": "S030_GET - Find Invitation Link for User Register",
 					"request": {
 						"auth": {
 							"type": "noauth"
@@ -911,7 +911,7 @@
 					"response": []
 				},
 				{
-					"name": "Genereate Link for Invitation (Perusahaan (Tambah Spesialization))",
+					"name": "S040_GET - Generate Link for Invitation",
 					"request": {
 						"auth": {
 							"type": "bearer",
@@ -942,7 +942,7 @@
 					"response": []
 				},
 				{
-					"name": "Get Detail Specialization By ID (Perusahaan (Detail Spesialization))",
+					"name": "S050_GET - View Detail Specialization by ID",
 					"request": {
 						"auth": {
 							"type": "bearer",
@@ -973,7 +973,7 @@
 					"response": []
 				},
 				{
-					"name": "Add Course To Specialization (Perusahaan (add kursus to spesialization))",
+					"name": "S060_POST - Add Course to Specialization",
 					"request": {
 						"method": "POST",
 						"header": [],
@@ -1004,7 +1004,7 @@
 					"response": []
 				},
 				{
-					"name": "Update Specialization (Perusahaan (Edit Spesialization Name))",
+					"name": "S070_PUT - Update Specialization",
 					"request": {
 						"method": "PUT",
 						"header": [],
@@ -1069,7 +1069,7 @@
 			"name": "Upload Image",
 			"item": [
 				{
-					"name": "Upload Image",
+					"name": "UI010_POST - Upload Image",
 					"request": {
 						"method": "POST",
 						"header": [],
@@ -1102,7 +1102,7 @@
 			"name": "Modules",
 			"item": [
 				{
-					"name": "Get All Module (Employee(Courses Video))",
+					"name": "M010_GET - View All Module",
 					"request": {
 						"auth": {
 							"type": "bearer",
@@ -1139,7 +1139,7 @@
 			"name": "Enrollments",
 			"item": [
 				{
-					"name": "Enroll Course For Employee",
+					"name": "EN010_POST - Enroll Course for Employee",
 					"request": {
 						"auth": {
 							"type": "bearer",
@@ -1171,7 +1171,7 @@
 					"response": []
 				},
 				{
-					"name": "Create Rating Reviews",
+					"name": "EN020_POST - Create Rating Reviews",
 					"request": {
 						"auth": {
 							"type": "bearer",
@@ -1217,7 +1217,7 @@
 			"name": "Proggress Course",
 			"item": [
 				{
-					"name": "Insert Proggress Course",
+					"name": "PC010_POST - Insert Progress Course",
 					"request": {
 						"auth": {
 							"type": "bearer",
@@ -1263,7 +1263,7 @@
 			"name": "Request Feature",
 			"item": [
 				{
-					"name": "Request Course",
+					"name": "RF010_POST - Request Course",
 					"request": {
 						"auth": {
 							"type": "bearer",
