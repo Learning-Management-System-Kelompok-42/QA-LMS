@@ -6,3 +6,4 @@ API Test Automation for Edemia, a project for Alterra Academy Capstone Session. 
 2. API Testing with Postman
 3. API Automation with Postman using Newman
 4. CI/CD Implementation using simple Node JS command to run Newman Automation every push at "main" branch
+
